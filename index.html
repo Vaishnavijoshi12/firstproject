@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart store|Ecommerce website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awes000ome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="RedStore_Img/Images/logo.png" width="125px">
+                </div>
+            </div>
+
+            <div class="nav1">
+                <nav>
+                    <ul id="menuitem">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Account</a></li>
+
+                    </ul>
+                </nav>
+                <img src="RedStore_Img/Images/cart.png" width="30px" height="30px">
+                <img src="RedStore_Img/Images/menu.png" class="menui" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Workout<br> A New Style!</h1>
+                    <p>Success usually comes to those who are too busy to be looking for it.<br>If you want something
+                        you've
+                        never had, you must be willing to do something you've never done.<br>The body achieves what the
+                        mind
+                        believes.</p>
+                    <a href="#" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="RedStore_Img/Images/image1.jpg">
+
+                </div>
+                <!-- featured categories -->
+                <div class="category">
+                    <div class="subcontainer">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="RedStore_Img/Images/category-1.jpg">
+                            </div>
+                            <div class="col-3">
+                                <img src="RedStore_Img/Images/category-3.jpg">
+                            </div>
+                            <div class="col-3">
+                                <img src="RedStore_Img/Images/category-2.jpg">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Featured products -->
+                <div class="subcontaier">
+                    <h2 class="title">
+                        Featured Products
+                    </h2>
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="RedStore_Img/Images/product-1.jpg">
+                            <h4>Red Printed T-shirt</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+
+
+                            </div>
+                            <p>₹850</p>
+                        </div>
+
+
+                        <div class="col-4">
+                            <img src="RedStore_Img/Images/product-2.jpg">
+                            <h4> Shoes</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+
+
+                            </div>
+                            <p>₹1250</p>
+                        </div>
+
+
+                        <div class="col-4">
+                            <img src="RedStore_Img/Images/product-3.jpg">
+                            <h4>Blue color jeans Pants</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+
+
+                            </div>
+                            <p>₹1550</p>
+
+                        </div>
+                        <div class="col-4">
+                            <img src="RedStore_Img/Images/product-4.jpg">
+                            <h4>Blue Printed T-shirt</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+
+
+                            </div>
+                            <p>₹950</p>
+                        </div>
+                        <br>
+                        <!-- Latest products -->
+                        <br>
+                        <br>
+                        <h2 class="title">Latest Products</h2>
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="RedStore_Img/Images/product-5.jpg">
+                                <h4>Red Printed T-shirt</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+
+
+                                </div>
+                                <p>₹850</p>
+                            </div>
+
+
+                            <div class="col-4">
+                                <img src="RedStore_Img/Images/product-6.jpg">
+                                <h4> Shoes</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+
+
+                                </div>
+                                <p>₹1250</p>
+                            </div>
+
+
+                            <div class="col-4">
+                                <img src="RedStore_Img/Images/product-7.jpg">
+                                <h4>Blue color jeans Pants</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+
+
+                                </div>
+                                <p>₹1550</p>
+
+                            </div>
+                            <div class="col-4">
+                                <img src="RedStore_Img/Images/product-8.jpg">
+                                <h4>Blue Printed T-shirt</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+
+
+                                </div>
+                                <p>₹950</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="RedStore_Img/Images/product-9.jpg">
+                                <h4>Blue Printed T-shirt</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+
+
+                                </div>
+                                <p>₹950</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="RedStore_Img/Images/product-10.jpg">
+                                <h4>Blue Printed T-shirt</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+
+
+                                </div>
+                                <p>₹950</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="RedStore_Img/Images/product-11.jpg">
+                                <h4>Blue Printed T-shirt</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+
+
+                                </div>
+                                <p>₹950</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="RedStore_Img/Images/product-12.jpg">
+                                <h4>Blue Printed T-shirt</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+
+
+                                </div>
+                                <p>₹950</p>
+                            </div>
+                        </div>
+
+
+                        <!-- Offer -->
+                        <div class="offer">
+                            <div class="subcontainer">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="RedStore_Img/Images/exclusive.png" class="Offer-img">
+
+                                    </div>
+                                    <div class="col-2">
+                                        <p>Exclusive Avaliable on Samrtstore</p>
+                                        <h1>Smart Band 4</h1>
+                                        <small>Weight:22.1g.<br>
+                                            Water Resistance Rating:5ATM.<br>
+                                            Display Type:AMOLED.<br>
+                                            Screen Size:0.95 inches.<br>
+                                            Resolution:120 x 240 RGB.<br>
+                                            Screen Brightness:Up to 400 nits (max brightness), brightness
+                                            adjustable.<br>
+                                            Touchscreen type:On-cell capacitive touchscreen.<br>
+                                            Screen protection:2.5D tempered glass with anti-fingerprint
+                                            coating.<br></small>
+                                        <a href="#" class="btn">Buy Now &#8594;</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- </div> -->
+                        <!-- testimonial  -->
+                        <div class="testmonial">
+                            <div class="subcontainer">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <i class="fa fa-quote-left"></i>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facilis eum
+                                            illo
+                                            blanditiis
+                                            quae, velit commodi ratione aut enim quo odio a ducimus necessitatibus vitae
+                                            porro,
+                                            aspernatur ipsam voluptas? Repudiandae!</p>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+
+
+                                        </div>
+                                        <img src="RedStore_Img/Images/user-1.png" alt="">
+                                    </div>
+                                    <div class="col-3">
+                                        <i class="fa fa-quote-left"></i>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facilis eum
+                                            illo
+                                            blanditiis
+                                            quae, velit commodi ratione aut enim quo odio a ducimus necessitatibus vitae
+                                            porro,
+                                            aspernatur ipsam voluptas? Repudiandae!</p>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+
+
+                                        </div>
+                                        <img src="RedStore_Img/Images/user-2.png" alt="">
+                                    </div>
+                                    <div class="col-3">
+                                        <i class="fa fa-quote-left"></i>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facilis eum
+                                            illo
+                                            blanditiis
+                                            quae, velit commodi ratione aut enim quo odio a ducimus necessitatibus vitae
+                                            porro,
+                                            aspernatur ipsam voluptas? Repudiandae!</p>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+
+
+                                        </div>
+                                        <img src="RedStore_Img/Images/user-3.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- brands -->
+                        <div class="brand">
+                            <div class="subcontainer">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img src="RedStore_Img/Images/logo-oppo.png">
+                                    </div>
+
+                                    <div class="col-5">
+                                        <img src="RedStore_Img/Images/logo-paypal.png">
+                                    </div>
+
+                                    <div class="col-5">
+                                        <img src="RedStore_Img/Images/logo-philips.png">
+                                    </div>
+
+                                    <div class="col-5">
+                                        <img src="RedStore_Img/Images/logo-coca-cola.png">
+                                    </div>
+                                    <!-- <div class="col-5">
+                                <img src="RedStore_Img/Images/logo-philips.png">
+                            </div> -->
+
+                                </div>
+                            </div>
+                            <!-- footer -->
+                            <div class="footer">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="footer-col-1">
+                                            <h3>Download our app</h3>
+                                            <p>Download app for andorid and ios mobile phone</p>
+                                            <div class="applogo">
+                                                <img src="RedStore_Img/Images/play-store.png">
+                                                <img src="RedStore_Img/Images/app-store.png">
+                                            </div>
+                                        </div>
+                                        <div class="footer-col-2">
+                                            <img src="RedStore_Img/Images/logo-white.png">
+                                            <p>Our Purpose is to sustainably make the pleasure and benifit of sports
+                                                accessible to many</p>
+
+                                        </div>
+                                        <div class="footer-col-3">
+                                            <h3>Useful Links</h3>
+                                            <ul>
+                                                <li>Coupons</li>
+                                                <li>Blog Post</li>
+                                                <li>Return policy</li>
+                                                <li>Join affiliate</li>
+                                            </ul>
+                                        </div>
+                                        <div class="footer-col-4">
+                                            <h3>Follow us</h3>
+                                            <ul>
+                                                <li>Facebook</li>
+                                                <li>Twitter</li>
+                                                <li>Instagram</li>
+                                                <li>Youtube</li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <p class="cpy">Copyright 2021-smart store </p>
+                                </div>
+                            </div>
+</body>
+<script>
+    var menuitem = document.getElementById("menuitem");
+    menuitem.style.maxHeight = "0px"
+
+    function menutoggle() {
+        if (menuitem.style.maxHeight == "0px") {
+
+            menuitem.style.maxHeight = "200px";
+        }
+        else {
+            menuitem.style.maxHeight = "0px"
+        }
+    }
+</script>
+
+</html>
